@@ -14,6 +14,7 @@
 		1958293D2A056EEF00EBE54C /* myList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1958293B2A056EEF00EBE54C /* myList.xcdatamodeld */; };
 		1958293F2A056EF000EBE54C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1958293E2A056EF000EBE54C /* Assets.xcassets */; };
 		195829422A056EF000EBE54C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 195829402A056EF000EBE54C /* LaunchScreen.storyboard */; };
+		1958294A2A056F8900EBE54C /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195829492A056F8900EBE54C /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1958293E2A056EF000EBE54C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		195829412A056EF000EBE54C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		195829432A056EF000EBE54C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		195829492A056F8900EBE54C /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				195829322A056EEF00EBE54C /* AppDelegate.swift */,
 				195829342A056EEF00EBE54C /* SceneDelegate.swift */,
 				195829362A056EEF00EBE54C /* ViewController.swift */,
+				195829492A056F8900EBE54C /* TableViewController.swift */,
 				195829382A056EEF00EBE54C /* Main.storyboard */,
 				1958293E2A056EF000EBE54C /* Assets.xcassets */,
 				195829402A056EF000EBE54C /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 				195829372A056EEF00EBE54C /* ViewController.swift in Sources */,
 				1958293D2A056EEF00EBE54C /* myList.xcdatamodeld in Sources */,
 				195829332A056EEF00EBE54C /* AppDelegate.swift in Sources */,
+				1958294A2A056F8900EBE54C /* TableViewController.swift in Sources */,
 				195829352A056EEF00EBE54C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
