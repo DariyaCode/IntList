@@ -9,7 +9,9 @@ import UIKit
 
 class TableViewController: UITableViewController {
     
-    let array = [1, 2, 3, 4, 5]
+    let arrayNames = ["Alya", "Adrien", "Luka", "Wang", "Chloé "]
+    let arraySurnames = ["Césaire", "Agreste", "Couffaine", "Fu", "Bourgeois"]
+    let arrayImage = ["alya", "adrien", "luka", "wang", "chloe"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,7 +32,7 @@ class TableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return array.count
+        return arrayNames.count
     }
 
     
@@ -38,8 +40,14 @@ class TableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
 
         // Configure the cell...
-        let label = cell.viewWithTag(1000) as! UILabel
-        label.text = "\(array[indexPath.row])"
+        let labelNames = cell.viewWithTag(1000) as! UILabel
+        labelNames.text = arrayNames[indexPath.row]
+        
+        let labelSurnames = cell.viewWithTag(1001) as! UILabel
+        labelSurnames.text = arraySurnames[indexPath.row]
+        
+        let labelImage = cell.viewWithTag(1002) as! UIImageView
+        labelImage.image = UIImage(named: arrayImage[indexPath.row])
 
         return cell
     }
