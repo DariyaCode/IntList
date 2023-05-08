@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		190AA24F2A08E1BF0030EB1D /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190AA24E2A08E1BF0030EB1D /* Person.swift */; };
 		195829332A056EEF00EBE54C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195829322A056EEF00EBE54C /* AppDelegate.swift */; };
 		195829352A056EEF00EBE54C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195829342A056EEF00EBE54C /* SceneDelegate.swift */; };
 		195829372A056EEF00EBE54C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195829362A056EEF00EBE54C /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		190AA24E2A08E1BF0030EB1D /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		1958292F2A056EEF00EBE54C /* myList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		195829322A056EEF00EBE54C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		195829342A056EEF00EBE54C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				195829322A056EEF00EBE54C /* AppDelegate.swift */,
 				195829342A056EEF00EBE54C /* SceneDelegate.swift */,
 				195829362A056EEF00EBE54C /* ViewController.swift */,
+				190AA24E2A08E1BF0030EB1D /* Person.swift */,
 				195829492A056F8900EBE54C /* TableViewController.swift */,
 				195829382A056EEF00EBE54C /* Main.storyboard */,
 				1958293E2A056EF000EBE54C /* Assets.xcassets */,
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				190AA24F2A08E1BF0030EB1D /* Person.swift in Sources */,
 				195829372A056EEF00EBE54C /* ViewController.swift in Sources */,
 				1958293D2A056EEF00EBE54C /* myList.xcdatamodeld in Sources */,
 				195829332A056EEF00EBE54C /* AppDelegate.swift in Sources */,
