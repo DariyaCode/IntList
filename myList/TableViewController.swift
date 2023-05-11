@@ -13,11 +13,12 @@ class TableViewController: UITableViewController {
 //    var arraySurnames = ["Césaire", "Agreste", "Couffaine", "Fu", "Bourgeois"]
 //    var arrayImage = ["alya", "adrien", "luka", "wang", "chloe"]
 
-    var arrayPersons = [Person(name: "Alya", surname: "Césaire", imageName: "alya"),
-                        Person(name: "Adrien", surname: "Agreste", imageName: "adrien"),
-                        Person(name: "Luka", surname: "Couffaine", imageName: "luka"),
-                        Person(name: "Wang", surname: "Fu", imageName: "wang"),
-                        Person(name: "Chloé", surname: "Bourgeois", imageName: "chloe")]
+    var arrayPersons = [Person(name: "Alya", surname: "Césaire", imageName: "alya", episode: 3.3, gender: "F", age: 15, power: "antibug", hardest: 2),
+                        Person(name: "Adrien", surname: "Agreste", imageName: "adrien", episode: 3.3, gender: "F", age: 15, power: "antibug", hardest: 2),
+                        Person(name: "Luka", surname: "Couffaine", imageName: "luka", episode: 3.3, gender: "F", age: 15, power: "antibug", hardest: 2),
+                        Person(name: "Wang", surname: "Fu", imageName: "wang", episode: 3.3, gender: "F", age: 15, power: "antibug", hardest: 2),
+                        Person(name: "Chloé", surname: "Bourgeois", imageName: "chloe", episode: 3.3, gender: "F", age: 15, power: "antibug", hardest: 2),
+                        Person(name: "Aurore", surname: "Beauréal", nick: "Climatika", imageName: "aurora", evilImageName: "stormy", episode: 3.3, gender: "F", age: 15, power: "antibug", hardest: 2)]
     
     override func viewDidLoad() {
         super.viewDidLoad()
