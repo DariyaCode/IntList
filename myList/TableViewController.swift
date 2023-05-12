@@ -13,8 +13,9 @@ class TableViewController: UITableViewController {
 //    var arraySurnames = ["Césaire", "Agreste", "Couffaine", "Fu", "Bourgeois"]
 //    var arrayImage = ["alya", "adrien", "luka", "wang", "chloe"]
 
-    var arrayPersons = [Person(name: "Alya", surname: "Césaire", imageName: "alya", episode: 3.3, gender: "F", age: 15, power: "antibug", hardest: 2),
-                        Person(name: "Adrien", surname: "Agreste", imageName: "adrien", episode: 3.3, gender: "F", age: 15, power: "antibug", hardest: 2),
+    var arrayPersons = [
+        Person(name: "Alya", surname: "Césaire", nick: "Rena Rouge, Lady Wifi, Oblivio", imageName: "alya", episode: 1.1, gender: "F", age: 15, power: "les forces proviennent de son smartphone et de son signal Wi-Fi.", hardest: 2),
+                        Person(name: "Adrien", surname: "Agreste", nick: "Chat Noir, Chat Blanc", imageName: "catblack", evilImageName: "catblank", episode: 1.1, gender: "M", age: 15, power: "antibug", hardest: 2, describe: "Lorsque Marinette commet une grave erreur, elle doit en assumer les conséquences et se battre contre quelqu'un qu'elle ne savait même pas qu'elle pouvait accumuler."),
                         Person(name: "Luka", surname: "Couffaine", imageName: "luka", episode: 3.3, gender: "F", age: 15, power: "antibug", hardest: 2),
                         Person(name: "Wang", surname: "Fu", imageName: "wang", episode: 3.3, gender: "F", age: 15, power: "antibug", hardest: 2),
                         Person(name: "Chloé", surname: "Bourgeois", imageName: "chloe", episode: 3.3, gender: "F", age: 15, power: "antibug", hardest: 2),

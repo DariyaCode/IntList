@@ -18,4 +18,5 @@ struct Person {
     var age: Int = 1
     var power = ""
     var hardest: Int = 1
+    var describe = ""
 }

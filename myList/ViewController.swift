@@ -37,6 +37,7 @@ class ViewController: UIViewController {
         labelAge.text = String(person.age)
         labelPower.text = person.power
         labelHardest.text = String(person.hardest)
+        details.text = person.describe
     }
 
 
