@@ -15,10 +15,10 @@ class TableViewController: UITableViewController {
 
     var arrayPersons = [
         Person(name: "Alya", surname: "Césaire", nick: "Rena Rouge, Lady Wifi, Oblivio", imageName: "alya", episode: 1.1, gender: "F", age: 15, power: "les forces proviennent de son smartphone et de son signal Wi-Fi.", hardest: 2),
-                        Person(name: "Adrien", surname: "Agreste", nick: "Chat Noir, Chat Blanc", imageName: "catblack", evilImageName: "catblank", episode: 1.1, gender: "M", age: 15, power: "antibug", hardest: 2, describe: "Lorsque Marinette commet une grave erreur, elle doit en assumer les conséquences et se battre contre quelqu'un qu'elle ne savait même pas qu'elle pouvait accumuler."),
+        Person(name: "Adrien", surname: "Agreste", nick: "Chat Noir, Chat Blanc", imageName: "adrien", imageSecond: "supercat", evilImageName: "catblank", episode: 1.1, gender: "M", age: 15, power: "the power of destruction", hardest: 5, describe: "Lorsque Marinette commet une grave erreur, elle doit en assumer les conséquences et se battre contre quelqu'un qu'elle ne savait même pas qu'elle pouvait accumuler."),
                         Person(name: "Luka", surname: "Couffaine", imageName: "luka", episode: 3.3, gender: "F", age: 15, power: "antibug", hardest: 2),
-                        Person(name: "Wang", surname: "Fu", imageName: "wang", episode: 3.3, gender: "F", age: 15, power: "antibug", hardest: 2),
-                        Person(name: "Chloé", surname: "Bourgeois", imageName: "chloe", episode: 3.3, gender: "F", age: 15, power: "antibug", hardest: 2),
+                        Person(name: "Felix", surname: "Fu", imageName: "wang", episode: 3.3, gender: "F", age: 15, power: "antibug", hardest: 2),
+        Person(name: "Chloé", surname: "Bourgeois", nick: "Queen Bee, AntiBug, Queen Wasp", imageName: "chloe", imageSecond: "queenbee", evilImageName: "queenwasp", episode: 1.1, gender: "F", age: 15, power: "immobilizing her target for a set amount of time", hardest: 3),
                         Person(name: "Aurore", surname: "Beauréal", nick: "Climatika", imageName: "aurora", evilImageName: "stormy", episode: 3.3, gender: "F", age: 15, power: "antibug", hardest: 2)]
     
     override func viewDidLoad() {
@@ -65,8 +65,12 @@ class TableViewController: UITableViewController {
         let labelSurnames = cell.viewWithTag(1001) as! UILabel
         labelSurnames.text = arrayPersons[indexPath.row].surname
         
+        let mainImage = cell.viewWithTag(1002) as! UIImageView
+        mainImage.image = UIImage(named: arrayPersons[indexPath.row].imageSecond)
+        mainImage.image = UIImage(named: arrayPersons[indexPath.row].imageName)
+        
         let imageView = cell.viewWithTag(1002) as! UIImageView
-        imageView.image = UIImage(named: arrayPersons[indexPath.row].imageName)
+        imageView.image = mainImage.image
 
         return cell
     }

@@ -12,6 +12,7 @@ struct Person {
     var surname = ""
     var nick = ""
     var imageName = ""
+    var imageSecond = ""
     var evilImageName = ""
     var episode: Double = 0.0
     var gender = ""
@@ -20,3 +21,4 @@ struct Person {
     var hardest: Int = 1
     var describe = ""
 }
+
